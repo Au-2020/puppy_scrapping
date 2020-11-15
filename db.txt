@@ -1,0 +1,43 @@
+img_url, title, age, sex, size, location, bod, date_available, registration
+img_url, title, age, sex,  price, location, date_available
+img_url, title, age, sex,  price, color,  size,  location, date_available
+
+
+table
+
+img_url, title, age, sex, size, location, dob, color, price, date_availabe, location, registration, product_id, product_url, created_at, updated_at
+
+price, created_at, update_at, product_id
+
+create table products (
+    product_id varchar(50) DEFAULT NULL,
+    product_url varchar(255) DEFAULT NULL,
+    img_url varchar(255) DEFAULT '',
+    title varchar(50) DEFAULT '',
+    price double DEFAULT 0,
+    age TINYINT DEFAULT 0,
+    sex TINYINT DEFAULT 0,
+    size double DEFAULT 0,
+    dob date DEFAULT NULL,
+    city varchar(20) NULL,
+    state varchar(4) NULL,
+    zip varchar(6) NULL,    
+    color varchar(20) DEFAULT NULL,    
+    date_available date DEFAULT NULL,    
+    registration varchar(20) DEFAULT NULL,     
+    payment varchar(40) DEFAULT NULL,
+    shipping varchar(20) DEFAULT NULL,
+    create_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    update_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (product_id)
+);
+
+create table price_history (
+    id bigint NOT NULL AUTO_INCREMENT,
+    product_id varchar(50),
+    price double,
+    created_at date  NOT NULL DEFAULT NOW(),
+    PRIMARY key(id)
+);
+
+

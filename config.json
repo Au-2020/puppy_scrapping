@@ -1,0 +1,14 @@
+{
+    "urls": [
+        "https://www.lancasterpuppies.com/puppy-search/breed/french%20bulldog",
+        "https://puppyfinder.com/french-bulldog-puppies-for-sale-usa-page-1-50",
+        "https://www.puppyspot.com/puppies-for-sale/breed/french-bulldog/"
+    ],
+    "db_config": {
+        "user":"root",
+        "database": "wordpress",
+        "host": "127.0.0.1",
+        "password": "",
+        "port": 3306
+    }
+}

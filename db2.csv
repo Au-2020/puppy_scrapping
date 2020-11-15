@@ -1,0 +1,4 @@
+`product_id`, `product_url`, `img_url`, `title`, `price`, `age`, `sex`, `size`, `color`, `dob`, `registration`
+'60e34e48f1e3b400765fe21a51386833', 'https://www.puppyspot.com/puppies-for-sale/breed/french-bulldog/puppy/658170?puppy_index=0&breed_id=225', 'https://photos.puppyspot.com/0/listing/658170/photo/5747273_medium.jpg', 'Alvin', '4699', '8', '1', 'small', 'Brindle', '2020-09-13', 'APRI'
+'cf404ca2987251834a81a62e7e34f1a4', 'https://www.puppyspot.com/puppies-for-sale/breed/french-bulldog/puppy/661402?puppy_index=1&breed_id=225', 'https://photos.puppyspot.com/2/listing/661402/photo/5746154_medium.jpg', 'Bashful', '5249', '10', '0', 'small', 'Fawn', '2020-09-05', 'AKC'
+'f57241ef20e9d8d90290fdc328fbff65', 'https://www.puppyspot.com/puppies-for-sale/breed/french-bulldog/puppy/657024?puppy_index=2&breed_id=225', 'https://photos.puppyspot.com/4/listing/657024/photo/500024367_medium.jpg', 'Morgan', '6149', '10', '1', 'small', 'Black & White', '2020-08-31', 'AKC'
